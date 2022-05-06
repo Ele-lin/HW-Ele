@@ -9,29 +9,33 @@
   </head>
 
   <body>
-   <div>
-    <header>
+    <div>
+      <header>
       <h1>Новинки сезона</h1>
-    </header>
-
+      </header>
+    </div>
+    
     <nav>
       <div id="mult-nav">
         <ul class="nav">
-          <li><b><a href="#bratzi">Братцы кролики   </a></b></li>
-          <li><b><a href="#zolush">   Золушка</a></b></li>
+          <div id="bk">
+            <li><b><a href="#bratzi">Братцы кролики   </a></b></li>
+          </div>
+          <div id="zl">
+            <li><b><a href="#zolush">   Золушка</a></b></li>
+          </div>
         </ul>
       </div>
-
       
       <form >
          <input type="search" name="q" placeholder="Поиск мультфильмов">
          <input id="botton" type="submit" value="Ищу!">
       </form>
-      
-     </nav>
+    </nav>
 
     <main>
-      <article>
+      <div id="rightside"></div>
+        <article>
         <div id="mult">
           <h2>Последние мультфильмы новинки</h2>
 
@@ -70,7 +74,8 @@
          </figure>
         </div>  
       </article>
-
+    </div>
+    
       <aside>
         <h2>Где можно посмотреть...</h2>
 
@@ -82,8 +87,8 @@
           <li><a href="#">Лаааадно...тут точно не будет но глянь..</a></li>
         </ul>
       </aside>
-
-    </main>
+    
+  </main>
 
     <footer>
       <p>©Авторские права принадлежат Ele-lin, 2022. Все права защищены.</p>

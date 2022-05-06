@@ -56,9 +56,9 @@ ul {
 .nav li{
     display: inline;
     font-size: 40px;
-    text-align: center;
-    
+    letter-spacing: 5px;  
   }
+
 a:link {
   color: red;
   }
